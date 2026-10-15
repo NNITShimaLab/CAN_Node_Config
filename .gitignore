@@ -1,0 +1,14 @@
+# ビルド成果物
+/build/
+/tests/*.exe
+/tests/protocol_test
+*.o
+
+# 実機固有IDやローカル環境を含む作業記録
+*.log
+*.local.md
+
+# エディター・OSの一時ファイル
+.vscode/
+.DS_Store
+Thumbs.db
